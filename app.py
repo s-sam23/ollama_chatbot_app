@@ -5,6 +5,7 @@ from langchain_community.llms.ollama import Ollama
 from langchain_community.embeddings.ollama import OllamaEmbeddings
 from config import DATA_PATH, CHROMA_PATH
 from langchain.vectorstores.chroma import Chroma
+import ollama
 
 
 # Automatically start the Ollama server when the app runs
